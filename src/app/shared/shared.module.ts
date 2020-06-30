@@ -1,4 +1,3 @@
-
 import { MaterialModule } from '../app-mat-module';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
@@ -16,7 +15,7 @@ import { SideNavComponent } from './side-nav/side-nav.component';
     BrowserAnimationsModule
   ],
   exports: [
-
+    SideNavComponent
   ],
   entryComponents: [
 

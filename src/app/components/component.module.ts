@@ -18,7 +18,8 @@ import { SharedModule } from '../shared/shared.module';
   ],
 
   exports: [
-    AssociateDetailsComponent
+    AssociateDetailsComponent,
+    SharedModule
   ],
 
   providers: [
